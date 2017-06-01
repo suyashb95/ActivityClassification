@@ -1,0 +1,56 @@
+<TestWidget>
+	x_reading: x_label
+	y_reading: y_label
+	z_reading: z_label
+	sample_rate: sample
+	activity_label: activity
+	Label:
+		font_size: 25
+		center_x: 2*root.width/8
+		top: root.top - 2
+		text: "X: "
+	Label:
+		id: x_label
+		font_size: 25
+		center_x: 2*root.width/8 + 50
+		top: root.top - 2
+		text: "0"
+	Label:
+		font_size: 25
+		center_x: 4*root.width/8
+		top: root.top - 2
+		text: "Y: "
+	Label:
+		id: y_label
+		font_size: 25
+		center_x: 4*root.width/8 + 50
+		top: root.top - 2
+		text: "0"
+	Label:
+		font_size: 25
+		center_x: 6*root.width/8
+		top: root.top - 2
+		text: "Z: "
+	Label:
+		id: z_label
+		font_size: 25
+		center_x: 6*root.width/8 + 50
+		top: root.top - 2
+		text: "0"
+	Label:
+		font_size: 25
+		center_x: root.width/2 - 60
+		top: root.top - 50
+		text: "Sample rate: "
+	Label:
+		id: sample
+		font_size: 25
+		center_x: root.width/2 + 60
+		top: root.top - 50
+		text: "0"
+	Label:
+		id: activity
+		font_size: 25
+		center_x: root.width/2 
+		top: root.top - 100
+		text: "Stationary"
